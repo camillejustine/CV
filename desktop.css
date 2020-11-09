@@ -1,0 +1,59 @@
+
+/* navigation */
+.nav {
+    position: sticky;
+    justify-content: flex-end;
+}
+.nav > button {
+    font-size: 1rem;
+
+    border-style: none;
+
+    transform: rotate(-90deg);
+
+}
+
+
+/* introduction text */
+.intro-text {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+/* latest work */
+.latest-work {
+    margin-top: 4rem;
+}
+
+.latest-workTitle {
+    padding: 1rem 0;
+
+    border-bottom: .1rem black solid;
+}
+
+.work-container {
+    padding: 3rem 0;
+
+    border-bottom: .1rem black solid;
+}
+
+.work-container > button {
+    border-style: none;
+}
+
+.work-container > button:hover {
+    color: #F5B683;
+}
+
+/* footer */
+.footer-style {
+
+}
+
+.footer-style > button {
+    border-style: none;
+}
+
+.footer-style > button:hover {
+    color: #F5B683;
+}
