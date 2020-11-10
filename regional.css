@@ -2,7 +2,7 @@ body {
     margin: 0 3rem;
     background-color: #EEEEEE;
 
-    font-family: 'Goldman', serif;
+    font-family: 'Goldman', bold, serif;
 }
 
 button {
@@ -20,7 +20,7 @@ h1 {
     margin: 0;
     padding: 0;
 
-    font-size: 10rem;
+    font-size: 12rem;
     text-transform: uppercase;
 }
 
@@ -28,7 +28,7 @@ h2 {
     margin: 0;
     padding: 0;
 
-    font-size: 10rem;
+    font-size: 9.5rem;
     text-transform: uppercase;
 }
 
@@ -56,22 +56,18 @@ h5 {
     text-transform: uppercase;
 }
 
-.flex {
-    display: flex;
+p {
+    font-family: 'Montserrat', medium, serif;
+    letter-spacing: .1rem;
 }
 
-.justify-center {
-    justify-content: center;
-}
+/* #flex & alignment classes */
+.flex {display: flex;}
 
-.align-center {
-    align-items: center;
-}
+.justify-center {justify-content: center;}
 
-.row {
-    flex-direction: row;
-}
+.align-center {align-items: center;}
 
-.column {
-    flex-direction: column;
-}
+.row {flex-direction: row;}
+
+.column {flex-direction: column;}

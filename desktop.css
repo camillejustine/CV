@@ -1,59 +1,125 @@
 
 /* navigation */
-.nav {
-    position: sticky;
-    justify-content: flex-end;
-}
-.nav > button {
+
+.navButton {
+    position: absolute;
+    z-index: 1500;
+    
+    right: 0;
+    top: 50%;
+    transform: rotate(-90deg);
+
+    border: none;
+    cursor: pointer;
+    background-color: #eeeeee;
+
+  }
+
+.navClose {
+
+  }
+
+
+.navShow {
+    /* show the menu */
+    transform: translateX(200%);
+  }
+
+.navBar {
+    position: absolute;
+    z-index: 1500;
+
+    /*
+    left: 0;
+    */
+    right: 0;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    color: #eeeeee;
+    /* hide the menu above the screen by default */
+    transform: translateX(100%);
+    /* transition adds a little animation when sliding in and out the menu */
+    transition: transform 0.2s ease;
+  }
+
+.navButton > button {
     font-size: 1rem;
 
     border-style: none;
-
-    transform: rotate(-90deg);
 
 }
 
 
 /* introduction text */
-.intro-text {
+.introText {
     margin-top: 2rem;
     width: 100%;
 }
 
-/* latest work */
-.latest-work {
-    margin-top: 4rem;
+.iLikeThingsContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
 }
 
-.latest-workTitle {
+.iLikeThingsContainer > h2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+    transition: opacity 0s;
+}
+
+.iLikeThingsContainer .iLikeItem {
+    opacity: 1;
+}
+
+/* latest work */
+.latestWork {
+    margin-top: 15rem;
+}
+
+.latestWorkTitle {
     padding: 1rem 0;
 
     border-bottom: .1rem black solid;
 }
 
-.work-container {
+.workContainer {
     padding: 3rem 0;
 
     border-bottom: .1rem black solid;
 }
 
-.work-container > button {
-    border-style: none;
+/* links */
+
+a:link, a:visited, a:active {
+    color: black;
+    text-decoration: none;
 }
 
-.work-container > button:hover {
+a:hover {
     color: #F5B683;
+    margin: 0 2rem;
+
+    transition-duration: .4s;
 }
 
 /* footer */
-.footer-style {
+.footerStyle {
 
 }
 
-.footer-style > button {
+.footerStyle > button {
     border-style: none;
 }
 
-.footer-style > button:hover {
+.footerStyle > button:hover {
     color: #F5B683;
 }

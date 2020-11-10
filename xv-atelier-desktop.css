@@ -1,0 +1,52 @@
+
+
+.titleContainer {
+    margin-top: 5rem;
+
+    width: 100%;
+}
+
+.projectContainer {
+
+}
+
+.projectDescription {
+    background-color: greenyellow;
+
+}
+
+.imageOne {
+    margin: 3rem 5rem 3rem 7rem;
+    width: 50rem;
+    height: 35rem;
+
+    background-color: aqua;
+}
+
+.imageTwo {
+    width: 50rem;
+    height: 70rem;
+    background-color: blueviolet;
+}
+
+.imageThree {
+    width: 50rem;
+    height: 70rem;
+    background-color: pink;
+}
+
+.imageFour {
+    width: 50rem;
+    height: 70rem;
+    background-color: yellow;
+}
+.imageFive {
+    width: 50rem;
+    height: 70rem;
+    background-color: blue;
+}
+.imageSix {
+    width: 50rem;
+    height: 70rem;
+    background-color: yellow;
+}

@@ -8,46 +8,63 @@
     <link rel="stylesheet" href="desktop.css">
     <link rel="stylesheet" href="tablet.css">
     <link rel="stylesheet" href="mobile.css">
+    <script defer src="script.js"></script>
     <title>Cami's portfolio</title>
 </head>
 <body>
 
-<div class="nav flex align-center">
-<button>Navigation</button>
-</div>
+<button class="navButton flex align-center">
+    Navigation
+</button>
+  <nav class="navBar">
+    <ul>
+      <li><a class="menuLink" href="#">Motion</a></li>
+      <li><a class="menuLink" href="#">Web development</a></li>
+      <li><a class="menuLink" href="#">UI/UX design</a></li>
+      <li><a class="menuLink" href="#">Graphics</a></li>
+    </ul>
+  </nav>
 
-<div class="intro-text">
+<div class="introText">
     <h1>ciao,</h1>
-    <h2>My name is<br>
-        Cami & I like</h2>
-    <h3>digital things</h3>
+    <h3>my name is Cami<br>
+        and I like</h3>
+    <div class="iLikeThingsContainer">
+        <h2 class="iLikeItem">digital things</h2>
+        <h2 class="iLikeItem">cute cats</h2>
+        <h2 class="iLikeItem">smooth ui</h2>
+        <h2 class="iLikeItem">tuscan wine</h2>
+        <h2 class="iLikeItem">design systems</h2> 
+    </div>
 </div>
 
-<div class="latest-work">
-    <div class="latest-workTitle">
+<div class="latestWork">
+    <div class="latestWorkTitle">
         <h5>Latest work</h5>
     </div>
-    <div class="work-container flex">
-       <button><h4>XV-Atelier</h4></button>
+    <div class="workContainer flex">
+        <a href="xv-atelier.html">
+        <h4>XV-Atelier</h4></a>
         <h5>01</h5>
     </div>
-    <div class="work-container flex">
-        <button><h4>Frd Music</h4></button>
+    <div class="workContainer flex">
+        <a href="link.html">
+        <h4>Frd Music</h4></a>    
         <h5>02</h5>
     </div>
-    <div class="work-container flex">
-        <button><h4>Vallgatan 12</h4></button>
+    <div class="workContainer flex">
+        <h4>Vallgatan 12</h4>
         <h5>03</h5>
     </div>
-    <div class="work-container flex">
-        <button><h4>Pia Toni</h4></button>
+    <div class="workContainer flex">
+        <h4>Pia Toni</h4>
         <h5>04</h5>
     </div>
 
 </div>
 
 <footer>
-    <div class="footer-style flex justify-center align-center">
+    <div class="footerStyle flex justify-center align-center">
         <button><h4>Let's talk!</h4></button>
     </div>  
 </footer>
