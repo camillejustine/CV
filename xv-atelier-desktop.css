@@ -1,4 +1,59 @@
 
+/* navigation */
+
+.navButton, .navButton:visited, .navButton:active {
+    position: absolute;
+    align-items: baseline;
+    z-index: 1500;
+    right: -1%;
+    top: 50%;
+    padding: 1rem;
+    transform: rotate(-90deg);
+
+    height: 10rem;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: #eeeeee;
+    font-size: 1rem;
+    border-style: none;
+  }
+
+.navButton:hover {
+    margin-right: 1rem;
+    transition: .4s;
+}
+
+.navShow {
+    transform: translateX(0) !important;
+  }
+
+.navBar {
+    overflow: hidden;
+    z-index: 1000;
+    position: absolute;
+
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background: black;
+    color: #eeeeee;
+
+    transform: translateX(100%);
+    transition: transform 0.2s ease;
+  }
+
+ .navBar > a:link, a:visited, a:active {
+    color: #eeeeee;
+    text-decoration: none;
+ }
+
+ .navBar > a:hover {
+    color: #F5B683;
+    letter-spacing: .5rem;
+    transition: .4s;
+ }
 
 .titleContainer {
     margin-top: 5rem;
@@ -11,7 +66,7 @@
 }
 
 .projectDescription {
-    background-color: greenyellow;
+    width: 50%;
 
 }
 
@@ -19,39 +74,61 @@
     margin: 0 15rem 0 0;
 }
 
-.imageOne {
-    margin: 3rem 5rem 3rem 0rem;
+.imageOne > video {
+    margin: 3rem 5rem 0rem 5rem;
     width: 50rem;
-    height: 35rem;
+    height: 50rem;
 
-    background-color: aqua;
+    object-fit: contain;
 }
 
-.imageTwo {
+.imageTwo > img {
     margin: 10rem 0 0 0;
     width: 50rem;
-    height: 70rem;
+    height: 50rem;
     background-color: blueviolet;
+
+    object-fit: cover;
 }
 
-.imageThree {
-    width: 50rem;
-    height: 70rem;
+.imageThree > video {
+    margin: 5rem 0 5rem 15rem;
+    width: 80rem;
+    height: 50rem;
     background-color: pink;
+
+    object-fit: cover;
 }
 
-.imageFour {
+.imageFour > video {
     width: 50rem;
-    height: 70rem;
+    height: 50rem;
     background-color: yellow;
+
+    object-fit: cover;
 }
-.imageFive {
+
+.imageFive > video {
+    margin: 3rem 7rem;
     width: 50rem;
-    height: 70rem;
+    height: 50rem;
     background-color: blue;
+
+    object-fit: cover;
 }
-.imageSix {
-    width: 50rem;
-    height: 70rem;
-    background-color: yellow;
+
+.backButton {
+    margin: 3rem;
+}
+
+.backButton > a:link, a:visited, a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.backButton > a:hover {
+    color: #F5B683;
+    text-decoration: none;
+    letter-spacing: .5rem;
+    transition: .4s;
 }
