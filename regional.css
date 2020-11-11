@@ -1,4 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    overflow-x: hidden;
+
     margin: 0 3rem;
     background-color: #EEEEEE;
 

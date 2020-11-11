@@ -15,8 +15,12 @@
 
 }
 
+.textBox {
+    margin: 0 15rem 0 0;
+}
+
 .imageOne {
-    margin: 3rem 5rem 3rem 7rem;
+    margin: 3rem 5rem 3rem 0rem;
     width: 50rem;
     height: 35rem;
 
@@ -24,6 +28,7 @@
 }
 
 .imageTwo {
+    margin: 10rem 0 0 0;
     width: 50rem;
     height: 70rem;
     background-color: blueviolet;
