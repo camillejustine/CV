@@ -1,0 +1,51 @@
+@media (max-width: 30em) { 
+
+    .textBox > {
+        font-size: 1.4em;
+        text-decoration: none;
+        color: black;
+        transition: .4s;
+    }
+
+    .textBox > a, p {
+        font-size: 1.4em;
+        text-decoration: none;
+        color: black;
+        transition: .4s;
+    }
+    
+    /* picture and video pattern of project page
+        change to video or img depending on your object */
+    
+    .imageOne > video {
+        margin: 1.5em 0;
+        width: 21.5em;
+        height: 21.5em;
+    }
+        
+    .imageTwo > img {
+        margin: 0 0 1.5em 0;
+        width: 21.5em;
+        height: 41.5em;
+    }
+        
+    .imageThree > video {
+        margin: 0 0 1.5em 0;
+        width: 21.5em;
+        height: 21.5em;
+    }
+        
+    .imageFour > video {
+        margin: 0 0 1.5em 0;
+        width: 21.5em;
+        height: 21.5em;
+    }
+        
+    .imageFive > video {
+        margin: 0 0 1.5em 0;
+        width: 21.5em;
+        height: 21.5em;
+    }
+        
+    } 
+}

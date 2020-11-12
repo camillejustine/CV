@@ -1,81 +1,39 @@
 
-/* navigation */
-
-.navButton, .navButton:visited, .navButton:active {
-    position: absolute;
-    align-items: baseline;
-    z-index: 1500;
-    right: -1%;
-    top: 50%;
-    padding: 1rem;
-    transform: rotate(-90deg);
-
-    height: 10rem;
-    border: none;
-    cursor: pointer;
-    background-color: black;
-    color: #eeeeee;
-    font-size: 1rem;
-    border-style: none;
-  }
-
-.navButton:hover {
-    margin-right: 1rem;
-    transition: .4s;
-}
-
-.navShow {
-    transform: translateX(0) !important;
-  }
-
-.navBar {
-    overflow: hidden;
-    z-index: 1000;
-    position: absolute;
-
-    right: 0;
-    width: 100vw;
-    height: 100vh;
-
-    background: black;
-    color: #eeeeee;
-
-    transform: translateX(100%);
-    transition: transform 0.2s ease;
-  }
-
- .navBar > a:link, a:visited, a:active {
-    color: #eeeeee !important;
-    text-decoration: none;
- }
-
- .navBar > a:hover {
-    color: #F5B683 !important;
-    letter-spacing: .5rem;
-    transition: .4s;
- }
-
-.titleContainer {
+/* title of the project */
+.projectTitle {
     margin-top: 5rem;
 
     width: 100%;
 }
 
-.projectContainer {
-
-}
-
+/* description of the project with main picture */
 .projectDescription {
     width: 50%;
 
 }
 
+/* description of the project */
 .textBox {
-    margin: 0 15rem 0 0;
+    margin: 0 10rem 0 0;
 }
 
+.textBox > a {
+    text-decoration: none;
+    color: black;
+    transition: .4s;
+}
+
+.textBox > a:hover {
+    color: #F5B683;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    transition: .4s;
+}
+
+/* picture and video pattern of project page
+    change to video or img for your object */
 .imageOne > video {
-    margin: 3rem 5rem 0rem 5rem;
+    margin: 3rem 2rem 0rem 5rem;
     width: 50rem;
     height: 50rem;
 
@@ -83,9 +41,9 @@
 }
 
 .imageTwo > img {
-    margin: 10rem 0 0 0;
-    width: 50rem;
-    height: 50rem;
+    margin: 10rem 0 0 5rem;
+    width: 40rem;
+    height: 60rem;
     background-color: blueviolet;
 
     object-fit: cover;
@@ -109,26 +67,10 @@
 }
 
 .imageFive > video {
-    margin: 3rem 7rem;
+    margin: 3rem 10rem 7rem 3rem;
     width: 50rem;
     height: 50rem;
     background-color: blue;
 
     object-fit: cover;
-}
-
-.backButton {
-    margin: 3rem;
-}
-
-.backButton > a:link, a:visited, a:active {
-    color: black !important;
-    text-decoration: none;
-}
-
-.backButton > a:hover {
-    color: #F5B683 !important;
-    text-decoration: none;
-    letter-spacing: .5rem;
-    transition: .4s;
 }

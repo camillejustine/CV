@@ -5,23 +5,13 @@
 body {
     overflow-x: hidden;
 
-    margin: 0 3rem;
+    margin: 0 5rem;
     background-color: #EEEEEE;
 
     font-family: 'Goldman', bold, serif;
 }
 
-button {
-    font-family: 'Goldman', serif;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-}
-
-footer {
-    margin: 20rem 0 2rem 0;
-
-}
-
+/*#region for Desktop Fonts */
 h1 {
     margin: 0;
     padding: 0;
@@ -34,7 +24,7 @@ h2 {
     margin: 0;
     padding: 0;
 
-    font-size: 9.5rem;
+    font-size: 9rem;
     text-transform: uppercase;
 }
 
@@ -67,13 +57,182 @@ p {
     letter-spacing: .1rem;
 }
 
-/* #flex & alignment classes */
+/*#endregion */
+
+/*#region for regional Desktop Buttons */
+button {
+    font-family: 'Goldman', serif;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+ /* button that goes back to main page */
+ .backButton {
+    margin: 3rem;
+}
+
+.backButton > a {
+    color: black;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.backButton > a:hover {
+    color: #F5B683;
+    text-decoration: none;
+    letter-spacing: .5rem;
+    transition: .4s;
+}
+
+/*#endregion /
+
+/*#region for Flex & alignment classes */
 .flex {display: flex;}
-
 .justify-center {justify-content: center;}
-
 .align-center {align-items: center;}
-
 .row {flex-direction: row;}
-
 .column {flex-direction: column;}
+
+/*#endregion */
+
+/*#region for Desktop Footer */
+footer {
+    margin: 20rem 0 2rem 0;
+
+}
+
+.footerStyle > button {
+    border-style: none;
+    color: black;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.footerStyle > button:hover {
+    color: #F5B683;
+    text-decoration: none;
+    letter-spacing: .5rem;
+    transition: .4s;
+}
+
+/*#endregion */
+
+/*#region for Desktop Navigation */
+.navButton, .navButton:visited, .navButton:active {
+    position: fixed;
+    align-items: baseline;
+    z-index: 1500;
+    right: -1%;
+    top: 50%;
+    padding: 1rem;
+    transform: rotate(-90deg);
+
+    height: 10rem;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: #eeeeee;
+    font-size: 1rem;
+    border-style: none;
+    transition: .4s;
+  }
+
+.navButton:hover {
+    margin-right: 1rem;
+    transition: .4s;
+    border-style: none;
+}
+
+.navShow {
+    transform: translateX(0) !important;
+  }
+
+.navBar {
+    position: fixed;
+    overflow: hidden;
+    z-index: 1000;
+
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background: black;
+    color: #eeeeee;
+
+    transform: translateX(100%);
+    transition: transform 0.2s ease;
+  }
+
+ .navBar > a {
+    font-size: 7rem;
+    color: #eeeeee;
+    text-decoration: none;
+    transition: .4s;
+ }
+
+ .navBar > a:hover {
+    color: #F5B683;
+    letter-spacing: .5rem;
+    transition: .4s;
+ }
+
+ /*#endregion */
+
+/* Media queries for Tablet */
+@media (max-width: 70em) {
+
+/*#region for Tablet Fonts */
+h1 {font-size: 10em;}
+h2 {font-size: 6em;}
+h3 {font-size: 6em;}
+h4 {font-size: 3em;}
+h5 {font-size: 1em;}
+p {font-size: 2em;}
+/*#endregion */
+
+/*#region for Tablet Navigation */
+.navButton, .navButton:visited, .navButton:active {
+    right: -5%;
+    height: 5rem;
+  }
+
+ .navBar > a {
+    font-size: 4rem;
+}
+
+/*#endregion */
+
+}
+
+/* Media queries for Mobile */
+@media (max-width: 30em) {
+
+body {
+    overflow-x: hidden;
+    margin: 0 1em;
+}
+
+/*#region for Mobile Fonts */
+h1 {font-size: 6em;}
+h2 {font-size: 3em;}
+h3 {font-size: 3em;}
+h4 {font-size: 2em;}
+h5 {font-size: 1em;}
+/*#endregion */
+
+/*#region for Mobile Navigation */
+.navButton, .navButton:visited, .navButton:active {
+    height: 5em;
+    top: 86%;
+    bottom: 0;
+    right: -15%;
+}
+
+ .navBar > a {
+    font-size: 4em;
+}
+/*#endregion */
+
+}
+

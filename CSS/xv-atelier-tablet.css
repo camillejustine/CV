@@ -1,0 +1,70 @@
+@media (max-width: 70em) {
+
+.projectContainer {
+    flex-direction: column;
+}
+
+.projectDescription {
+    width: 100%;
+}
+
+/* description of the project */
+.textBox {
+    margin: 0;
+}
+
+.textBox > a {
+    font-size: 3em;
+    text-decoration: none;
+    color: black;
+    transition: .4s;
+}
+
+/* picture and video pattern of project page
+    change to video or img depending on your object */
+
+.imageOne > video {
+    margin: 3em 0;
+    width: 55em;
+    height: 55em;
+    
+    object-fit: contain;
+}
+    
+.imageTwo > img {
+    margin: 1em 0;
+    width: 55em;
+    height: 80em;
+    background-color: blueviolet;
+    
+    object-fit: cover;
+}
+    
+.imageThree > video {
+    margin: 1em 0;
+    width: 55em;
+    height: 55em;
+    background-color: pink;
+    
+    object-fit: cover;
+}
+    
+.imageFour > video {
+    margin: 1em 0;
+    width: 55em;
+    height: 55em;
+    background-color: yellow;
+
+    object-fit: cover;
+}
+    
+.imageFive > video {
+    margin: 1em 0;
+    width: 55em;
+    height: 55em;
+    background-color: blue;
+
+    object-fit: cover;
+}
+    
+}

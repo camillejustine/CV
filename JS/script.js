@@ -1,12 +1,14 @@
 window.addEventListener('load', main);
 
-/** functions on site */
+/**
+ * functions on site */
 function main() {
     startThingsLoop();
     openMenu();
 }
 
-/** open and close menu */
+/**
+ * open and close menu */
 function openMenu() {
     const navigationButton = document.querySelector(".navButton");
     navigationButton.addEventListener('click', closeMenu);
@@ -17,12 +19,15 @@ function closeMenu() {
     navigationBar.classList.toggle("navShow");
 }
 
-/** loop animation with set interval */
+/**
+ * loop animation with set interval */
 function startThingsLoop() {
-   setInterval(changeCurrentItem, 1000);
+   setInterval(changeCurrentItem, 500);
 }
 
-/** change what i like */
+/**
+ * gives next item iLikeItem class
+ * so the loop shows different things i like */
 function changeCurrentItem() {
     const itemLoop = document.querySelectorAll('.iLikeThingsContainer > h2');
     for (let i = 0; i < itemLoop.length; i++) {
