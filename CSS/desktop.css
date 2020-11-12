@@ -44,6 +44,32 @@
     transition: transform 0.2s ease;
   }
 
+  .navBar {
+    overflow: hidden;
+    z-index: 1000;
+    position: absolute;
+
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background: black;
+    color: #eeeeee;
+
+    transform: translateX(100%);
+    transition: transform 0.2s ease;
+  }
+
+  .navBar > a:link, a:visited, a:active {
+    color: #eeeeee !important;
+    text-decoration: none;
+ }
+
+ .navBar > a:hover {
+    color: #F5B683;
+    letter-spacing: .5rem;
+    transition: .4s;
+ }
 
 /* introduction text */
 .introText {
@@ -92,7 +118,7 @@
 
 /* links to work */
 
-.workContainer > a:link a:visited a:active {
+.workContainer > a:link, a:visited, a:active {
     color: black;
     text-decoration: none;
 }

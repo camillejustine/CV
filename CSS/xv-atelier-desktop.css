@@ -45,12 +45,12 @@
   }
 
  .navBar > a:link, a:visited, a:active {
-    color: #eeeeee;
+    color: #eeeeee !important;
     text-decoration: none;
  }
 
  .navBar > a:hover {
-    color: #F5B683;
+    color: #F5B683 !important;
     letter-spacing: .5rem;
     transition: .4s;
  }
@@ -122,12 +122,12 @@
 }
 
 .backButton > a:link, a:visited, a:active {
-    color: black;
+    color: black !important;
     text-decoration: none;
 }
 
 .backButton > a:hover {
-    color: #F5B683;
+    color: #F5B683 !important;
     text-decoration: none;
     letter-spacing: .5rem;
     transition: .4s;
