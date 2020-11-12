@@ -2,8 +2,6 @@
 /* title of the project */
 .projectTitle {
     margin-top: 5rem;
-
-    width: 100%;
 }
 
 /* description of the project with main picture */
@@ -18,6 +16,7 @@
 }
 
 .textBox > a {
+    font-size: 2rem;
     text-decoration: none;
     color: black;
     transition: .4s;
@@ -33,7 +32,7 @@
 /* picture and video pattern of project page
     change to video or img for your object */
 .imageOne > video {
-    margin: 3rem 2rem 0rem 5rem;
+    margin: 3rem 2rem 0 0;
     width: 50rem;
     height: 50rem;
 
@@ -50,7 +49,7 @@
 }
 
 .imageThree > video {
-    margin: 5rem 0 5rem 15rem;
+    margin: 5rem 0 5rem 3rem;
     width: 80rem;
     height: 50rem;
     background-color: pink;
@@ -59,7 +58,8 @@
 }
 
 .imageFour > video {
-    width: 50rem;
+    margin: 0;
+    width: 40rem;
     height: 50rem;
     background-color: yellow;
 
@@ -67,8 +67,8 @@
 }
 
 .imageFive > video {
-    margin: 3rem 10rem 7rem 3rem;
-    width: 50rem;
+    margin: 3rem 4rem 7rem 3rem;
+    width: 40rem;
     height: 50rem;
     background-color: blue;
 

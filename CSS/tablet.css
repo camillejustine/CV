@@ -17,10 +17,7 @@
 }
 
 .workContainer > a:hover {
-    color: #F5B683;
-    margin: 0 2rem;
-    letter-spacing: .5rem;
-    transition-duration: .4s;
+    letter-spacing: .2em;
 }
 
 }
