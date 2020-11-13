@@ -198,7 +198,8 @@ p {font-size: 2em;}
   }
 
  .navBar > a {
-    font-size: 4rem;
+    font-size: 1.2em;
+    margin: .5em 0em;
 }
 
 /*#endregion */
@@ -230,7 +231,8 @@ h5 {font-size: 1em;}
 }
 
  .navBar > a {
-    font-size: 1em;
+    font-size: .8em;
+    margin: 1em;
 }
 /*#endregion */
 
