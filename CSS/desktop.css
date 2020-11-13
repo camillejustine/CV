@@ -2,6 +2,7 @@
 
 /* i like item */
 .iLikeItem {
+    color:  #FF7200;
     margin-bottom: 2rem;
 }
 
@@ -56,7 +57,7 @@
 }
 
 .workContainer > a:hover {
-    color: #F5B683;
+    color:  #FF7200;
     margin: 0 2rem;
     letter-spacing: .5rem;
     transition-duration: .4s;

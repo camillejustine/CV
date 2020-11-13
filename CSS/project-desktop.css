@@ -23,9 +23,8 @@
 }
 
 .textBox > a:hover {
-    color: #F5B683;
+    color: #FF7200;
     text-decoration: none;
-    letter-spacing: .1rem;
     transition: .4s;
 }
 
@@ -37,40 +36,41 @@
     height: 50rem;
 
     object-fit: contain;
+    background-color: #FF7200;
 }
 
 .imageTwo > img {
     margin: 10rem 2rem 2rem 5rem;
     width: 40rem;
     height: 60rem;
-    background-color: blueviolet;
 
     object-fit: cover;
+    background-color: #FF7200;
 }
 
 .imageThree > video {
-    margin: 5rem 0 5rem 3rem;
+    margin: 5rem 0 5rem 12rem;
     width: 80rem;
     height: 50rem;
-    background-color: pink;
 
     object-fit: cover;
+    background-color: #FF7200;
 }
 
 .imageFour > video {
     margin: 0;
     width: 40rem;
     height: 50rem;
-    background-color: yellow;
 
     object-fit: cover;
+    background-color: #FF7200;
 }
 
 .imageFive > video {
     margin: 3rem 4rem 7rem 3rem;
     width: 40rem;
     height: 50rem;
-    background-color: blue;
 
     object-fit: cover;
+    background-color: #FF7200;
 }
