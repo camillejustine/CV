@@ -1,5 +1,6 @@
 @media (max-width: 30em) { 
 
+/*#region Big phones */ 
     .textBox > {
         font-size: 1.4em;
         text-decoration: none;
@@ -46,5 +47,46 @@
         width: 21.5em;
         height: 21.5em;
     }
+/*#endregion */
         
 } 
+
+@media (max-width: 25em) { 
+
+    /*#region Smaller phones */ 
+        
+        /* picture and video pattern of project page
+            change to video or img depending on your object */
+        
+        .imageOne > video {
+            margin: 0 2em 1.5em 0;
+            width: 23em;
+            height: 23em;
+        }
+            
+        .imageTwo > img {
+            margin: 0 2em 1.5em 0;
+            width: 23em;
+            height: 41.5em;
+        }
+            
+        .imageThree > video {
+            margin: 0 2em 1.5em 0;
+            width: 23em;
+            height: 23em;
+        }
+            
+        .imageFour > video {
+            margin: 0 2em 1.5em 0;
+            width: 23em;
+            height: 23em;
+        }
+            
+        .imageFive > video {
+            margin: 0 2em 1.5em 0;
+            width: 23em;
+            height: 23em;
+        }
+    /*#endregion */
+            
+    } 
